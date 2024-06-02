@@ -1,0 +1,48 @@
+.container{
+    background-color: #163d66;
+    margin-left: 1rem;
+    width: 4.5rem;
+    height: 5rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+}
+.door{
+    background-color: #2468b1;
+    width: 4.3rem;
+    height: 4.7rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    align-self: center;
+    margin: auto;
+
+}
+
+.input{
+    height: 2px;
+    width: 2px;
+}
+
+.ball{
+    
+        background-color: rgb(212, 30, 30);
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin: auto ;
+        align-self: center;
+        border : 0;
+        cursor: pointer;
+        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+
+@keyframes scale-up-center {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  

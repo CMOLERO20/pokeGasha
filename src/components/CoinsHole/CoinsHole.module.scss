@@ -1,0 +1,72 @@
+.container{
+    color: white;
+    border: 2px solid #174474;
+    background-color: rgb(170, 170, 170);
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    
+    display: flex;
+    align-self: flex-end;
+    margin: 1rem 1.5rem 0 0;
+    -webkit-animation: color-change-2x 1s linear infinite alternate both;
+	        animation: color-change-2x 0.75s linear infinite  both;
+}
+
+.container_disable{
+    
+    border: 2px solid rgb(134, 134, 134) ;
+    background-color: white;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    
+    display: flex;
+    align-self: flex-end;
+    margin: 1rem 1.5rem 0 0;
+   
+}
+
+.input{
+    height: 1.5rem ;
+    width: 1px ;
+    background-color: rgb(190,190,190);
+
+    margin: auto;
+    align-self: center;
+    padding-inline: 2px;
+    border: 2px inset #E7E7E7;
+    cursor: pointer;
+    
+}
+.disable{
+    height: 1.5rem ;
+    width: 1px ;
+    background-color: rgb(190,190,190);
+
+    margin: auto;
+    align-self: center;
+    padding-inline: 2px;
+    border: 2px inset #E7E7E7;
+    
+}
+
+
+
+  @-webkit-keyframes color-change-2x {
+    0% {
+      background: #fafafa;
+    }
+    100% {
+      background: #d1bf1a;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #fdfdfd;
+    }
+    100% {
+      background: #fccf00;
+    }
+  }
+  
