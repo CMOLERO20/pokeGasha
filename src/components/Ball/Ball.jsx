@@ -1,5 +1,4 @@
 import style from './Ball.module.scss'
-import { useState } from 'react'
 
 
 const Ball = () => {

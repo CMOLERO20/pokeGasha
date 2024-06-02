@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+
 import style from './CoinsHole.module.scss'
 import { usePlayContext } from '../../Context/playContext'
 

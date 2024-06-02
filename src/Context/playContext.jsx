@@ -10,7 +10,7 @@ const PlayProvider = ({children}) => {
 
     const [action,setAction] = useState(1)
     const [balls,setBalls] = useState(5)
-    const [prizes, setPrizes] = useState([])
+    const prizes = []
    
 
     const nextAction = () =>{
