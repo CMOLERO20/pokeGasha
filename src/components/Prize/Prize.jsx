@@ -21,6 +21,7 @@ const Prize = ({closePrize}) => {
     }, [])
     
     if(pokeInfo != null ) {savePrize(pokeInfo)}
+   
     return !loading ? (
         <div className={style.container}>
             <button className={style.btn_close} onClick={closePrize}>X</button>

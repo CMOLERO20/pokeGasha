@@ -4,7 +4,7 @@ import { usePlayContext } from '../../Context/playContext'
 const ListPrizes = () =>{
     const {getPrizes} = usePlayContext()
     const prizes = getPrizes()
-    
+   
     if(prizes.length> 0){
         return (
             
